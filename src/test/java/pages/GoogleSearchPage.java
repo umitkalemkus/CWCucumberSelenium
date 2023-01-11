@@ -35,7 +35,6 @@ public class GoogleSearchPage {
 
 
     public void searchFor(String key){
-
         searchText.sendKeys(key+ Keys.ENTER);
     }
 }
