@@ -12,7 +12,12 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/features/07_Hooks.feature"},
         glue = {"stepdefinitions","hooks"},
         plugin = {"html:target/cucumber-reports.html",
-        }
+                  "json:target/cucumber-json.json",
+                  "junit:target/cucumber-xml.xml",
+                   "pretty"
+
+        },
+        monochrome = false
 
 
 
