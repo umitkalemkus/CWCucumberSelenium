@@ -1,18 +1,4 @@
-Feature: Hooks Kullanimi Feature
-
-
-
-
-
-
-
-
-
-
-
-
-
-  Scenario: Senaryo 1
+Feature: Hooks Kullanimi FeatureScenario: Senaryo 1
     Given Ilk feature icin cucumber indirdim.
     When Seneryomu calistirdigimda
     Then Senaryomun calistigini konsolda gormeliyim.
