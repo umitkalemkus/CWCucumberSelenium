@@ -18,7 +18,7 @@ public class SeleniumGrid {
         cap.setPlatform(Platform.WIN11);
         cap.setBrowserName("firefox");
 
-        driver = new RemoteWebDriver(new URL("http://192.168.0.161:4444"),cap);
+        driver = new RemoteWebDriver(new URL("http://192.168.0.131:4444"),cap);
 
         driver.manage().window().maximize();
         driver.get("https://www.google.com/");
